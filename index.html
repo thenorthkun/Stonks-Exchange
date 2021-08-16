@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit? Loss?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="section">
+    <h1>Check Profit/Loss On Your Stock</h1>
+   <form action="" id="form" >
+       <label for="price">
+        <span>Initial Price </span>
+       <input type="number" min="1" id="price" placeholder="Enter Cost Price Of Stock" required>
+    </label>
+<hr>
+    <label for="quantity">
+        <span>Quantity of Stocks </span>
+        <input type="number" name="" id="quantity" placeholder="Enter Quantity Of Stock" required>
+ </label>
+<hr>
+    <label for="current">
+        <span>Current Price &nbsp;&nbsp;&nbsp; </span>
+        <input type="number" id="current" min="1" placeholder="Enter Current Price of Stock" required>
+    </label>
+<hr>
+
+   <button type="submit" >Check</button>
+   </form>
+<div id="output"></div>
+<div id="gif"><br><br><br><br><br><br><br><br><br><br></div>
+</section>
+</body>
+<script src="script.js"></script>
+</html>
