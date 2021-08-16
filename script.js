@@ -29,7 +29,7 @@ form.addEventListener('submit', function (e) {
 
     if (profit > 0) {
 
-        c = ("You gained " + profitPCT + "%. " + "Your total profit is ₹" + profit)
+        c = ("You gained " + profitPCT + "%. " + "Your total profit is ₹" + profit + "😄🎉")
         x.innerHTML = c
         output.style.backgroundColor = "#7faebb69"
         if (profitPCT > 50) {
@@ -38,7 +38,7 @@ form.addEventListener('submit', function (e) {
         }
     }
     if (loss > 0) {
-        c = ("You lost " + lossPCT + "%. " + "Your total loss is ₹" + loss)
+        c = ("You lost " + lossPCT + "%. " + "Your total loss is ₹" + loss + "😥😓")
         x.innerHTML = c
         output.style.backgroundColor = "#b63f5975"
         if (lossPCT > 50) {
